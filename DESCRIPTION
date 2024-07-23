@@ -1,0 +1,22 @@
+Package: visR
+Title: Interactive Data Visualization Tool
+Version: 0.1.0
+Author: person("accaderi", "deri.attila@gmail.com", role = c("aut", "cre"))
+Maintainer: accaderi <deri.attila@gmail.com>
+Description: visR is an interactive data visualization tool built with R Shiny and Plotly. It provides various chart types and AI-powered analysis capabilities.
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+URL: https://github.com/accaderi/visR-Interactive-Data-Visualization-Tool
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    plotly,
+    dplyr,
+    readr,
+    DT,
+    caret,
+    randomForest,
+    bslib
+RoxygenNote: 7.3.2
+
